@@ -702,6 +702,7 @@
         a(173);
 
         function L() {
+          return '';
             var t = Object(o.lazy)((function() {
                     return a.e(4).then(a.bind(null, 193))
                 })),
@@ -1224,7 +1225,7 @@
             function s(t) {
                 e(t)
             }
-            return Object(o.useEffect)((function() {
+            return ''; Object(o.useEffect)((function() {
                 if ("true" === f.h.showGithubProfile) {
                     fetch("/profile.json").then((function(t) {
                         if (t.ok) return t.json();
