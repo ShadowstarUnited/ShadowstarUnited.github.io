@@ -806,6 +806,9 @@ input:checked+.slider:after{
         -webkit-order:2;
         order:2
     }
+    .skill {
+      line-height: 1.5;
+    }
 }
 .experience-cards-div{
     display:grid;
