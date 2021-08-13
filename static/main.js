@@ -1226,17 +1226,17 @@
                 e(t)
             }
             return Object(o.useEffect)((function() {
-                if ("true" === f.h.showGithubProfile) {
-                    fetch("/profile.json").then((function(t) {
-                        if (t.ok) return t.json();
-                        console.error(t)
-                    })).then((function(t) {
-                        s(t.data.user)
-                    })).catch((function(t) {
-                        s("Error"), console.log("Because of this error, contact section has reverted to default"), console.error(t), f.h.showGithubProfile = "false"
-                    }))
-                }
-            }), []), f.h.display && "true" === f.h.showGithubProfile && !("string" === typeof a || a instanceof String) ? x.a.createElement(o.Suspense, {
+                // if ("true" === f.h.showGithubProfile) {
+                //     fetch("/profile.json").then((function(t) {
+                //         if (t.ok) return t.json();
+                //         console.error(t)
+                //     })).then((function(t) {
+                //         s(t.data.user)
+                //     })).catch((function(t) {
+                //         s("Error"), console.log("Because of this error, contact section has reverted to default"), console.error(t), f.h.showGithubProfile = "false"
+                //     }))
+                // }
+            s("Error")}), []), f.h.display && "true" === f.h.showGithubProfile && !("string" === typeof a || a instanceof String) ? x.a.createElement(o.Suspense, {
                 fallback: x.a.createElement(V, null)
             }, x.a.createElement(xt, {
                 prof: a,
