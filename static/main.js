@@ -58,7 +58,7 @@
             y = {
                 title: "About Me",
                 subTitle: "There are many things I am skilled and experienced in, but this portfolio will cover my most favorable projects I am involved in, as well as a few things about me.",
-                skills: [x()("\u26a1 I am a 26 year old, who's non-binary (intergender/agender) and loves to come up with wacky and funny ideas for things such as Discord Bots."), x()("\u26a1 I am the developer of Drunk o'Bot and Guard Dog (and soon to be more bots in the future!)"), x()("\u26a1 Moderator and Support for Team Hydra - the people behind Zira, the best Reaction Role bot on Discord."), x()("I spend most of my time on Discord talking to people, whether it's meeting new people and making new friends, or just helping out with things. I love to chat and you should totally hmu some time 👀")],
+                skills: [x()("\u26a1 I am a 26-year-old, who's non-binary (intergender/agender) and loves to come up with wacky and funny ideas for things such as Discord Bots."), x()("\u26a1 I am the developer of Drunk o'Bot and Guard Dog (and soon to be more bots in the future!)"), x()("\u26a1 Moderator and Support for Team Hydra - the people behind Zira, the best Reaction Role bot on Discord."), x()("I spend most of my time on Discord talking to people, whether it's meeting new people and making new friends, or just helping out with things. I love to chat and you should totally hmu some time 👀")],
                 softwareSkills: [],
                 display: !0
             },
