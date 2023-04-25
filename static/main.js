@@ -936,33 +936,6 @@
         }
         a(179);
 
-        function H() {
-            var t = Object(o.useContext)(d).isDark;
-            return x.a.createElement(b.Fade, {
-                bottom: !0,
-                duration: 1e3,
-                distance: "5px"
-            }, x.a.createElement("div", {
-                className: "footer-div"
-            }, x.a.createElement("p", {
-                className: t ? "dark-mode footer-text" : "footer-text"
-            }, G()("Site edited by", " "), " ", x.a.createElement("a", {
-                href: "https://bduck.xyz/"
-            }, "DuckMasterAl"), " | Changes on ", x.a.createElement("a", {
-                href: "https://github.com/ShadowstarUnited/aboutme/commits/master"
-            }, "GitHub")), x.a.createElement("p", {
-                className: t ? "dark-mode footer-text" : "footer-text"
-            }, "Original site made by", " ", x.a.createElement("a",
-            {href: "https://github.com/saadpasta/developerFolio"}, "Saad Pasta"), " ", "| Theme by", " ", x.a.createElement("a", {
-                href: "https://github.com/saadpasta/developerFolio"
-            }, "developerFolio")), x.a.createElement("p",
-            {className: t ? "dark-mode footer-text" : "footer-text"},
-          "Favicon made by ", x.a.createElement("a",
-          {href: "https://www.freepik.com"}, "Freepik"), " from ", x.a.createElement("a",
-        {href: "https://www.flaticon.com/"}, "www.flaticon.com"))))
-        }
-        a(180), a(181);
-
         function J(t) {
             var i = t.talkDetails;
             return x.a.createElement("div", null, x.a.createElement("div", {
